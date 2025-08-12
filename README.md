@@ -1,80 +1,45 @@
-📊 Análise de Vendas — Alura Store
-Este projeto realiza uma análise completa dos dados de vendas de quatro lojas fictícias da Alura Store, com o objetivo de identificar qual loja o Sr. João deve vender, considerando indicadores de desempenho como faturamento, avaliações de clientes, categorias de produtos e custos de frete.
+# 📊 Análise de Vendas — Alura Store
 
-📌 Objetivo
-O projeto foi desenvolvido para:
+## 🎯 Propósito da Análise
 
-Comparar o desempenho das quatro lojas da Alura Store.
+Este projeto tem como objetivo **avaliar o desempenho de quatro lojas da Alura Store** e recomendar qual delas o Sr. João deve vender.  
+A decisão é baseada em múltiplos indicadores, como:
 
-Identificar pontos fortes e fracos de cada loja.
+- 💰 **Faturamento total**
+- 📦 **Categorias mais e menos vendidas**
+- ⭐ **Avaliações médias dos clientes**
+- 🛒 **Produtos mais e menos vendidos**
+- 🚚 **Frete médio por loja**
 
-Auxiliar na decisão sobre qual loja deve ser vendida, com base em dados concretos.
+---
 
-📂 Estrutura do Projeto
-Importação e tratamento dos dados
-Dados de vendas de cada loja são carregados e combinados em um único DataFrame.
+## 🗂 Estrutura do Projeto
 
-Análises realizadas:
 
-Faturamento total por loja.
+- **`AluraStoreBr.ipynb`** → Fluxo completo da análise: importação, tratamento, visualização e conclusão.  
+- **`README.md`** → Documento descritivo do projeto.  
+- **`LICENSE`** → Termos de uso (caso aplicável).
 
-Categorias mais e menos vendidas.
+---
 
-Média das avaliações dos clientes.
+## 📊 Exemplos de Gráficos e Insights Obtidos
 
-Produtos mais e menos vendidos.
+Durante a execução do notebook, são gerados gráficos e tabelas como:
 
-Frete médio por loja.
+- 📈 **Faturamento Total por Loja** — Comparação visual de receitas.  
+- 🏷 **Categorias Mais e Menos Vendidas** — Ex.: Loja 3 vende mais eletrônicos, Loja 1 vende mais roupas.  
+- ⭐ **Avaliações Médias dos Clientes** — Escala de 0 a 5 pontos.  
+- 🛒 **Produtos Mais e Menos Vendidos** — Identificação de itens líderes e encalhados.  
+- 🚚 **Frete Médio por Loja** — Comparação dos custos logísticos.
 
-Visualizações gráficas para melhor compreensão dos resultados.
+💡 **Exemplo de Insight**:  
+> "Apesar de ter o maior faturamento, a Loja 2 apresenta alto custo de frete e avaliações abaixo da média, o que pode comprometer a fidelização de clientes."
 
-📊 Dados Utilizados
-Os dados originais foram fornecidos em arquivos CSV hospedados no GitHub da Alura, contendo as seguintes colunas:
+---
 
-Produto
+## ⚙️ Instruções para Executar o Notebook
 
-Categoria do Produto
-
-Preço
-
-Frete
-
-Avaliação da compra
-
-Data da compra
-
-Localização
-
-Quantidade
-
-🛠 Tecnologias Utilizadas
-Python 3
-
-Pandas — Tratamento e análise de dados
-
-Matplotlib & Seaborn — Criação de gráficos e visualizações
-
-Google Colab — Ambiente de desenvolvimento
-
-🚀 Como Executar
-Clone este repositório:
-
-bash
-Copy code
-git clone https://github.com/seuusuario/alura-store-analise.git
-cd alura-store-analise
-Abra o arquivo AluraStoreBr.ipynb no Google Colab ou Jupyter Notebook.
-
-Execute todas as células para reproduzir as análises e gerar os gráficos.
-
-📈 Resultados Esperados
-Ao final da execução, o notebook apresentará:
-
-Gráficos comparativos de faturamento, avaliações e frete.
-
-Tabelas com categorias e produtos mais/menos vendidos.
-
-Uma recomendação final indicando qual loja deve ser vendida, baseada nas análises.
-
-📜 Licença
-Este projeto é de uso educacional, seguindo a licença MIT.
+1. **Clonar o repositório**
+   ```bash
+   git clone https://github.com/seuusuario/alura-store-analise.git
+   cd alura-store-analise
